@@ -18,7 +18,7 @@ public class ApiController {
         ApiResponse response = new ApiResponse();
         response.setEmail("kibsnick@ymail.com"); 
         response.setCurrentDatetime(Instant.now().toString()); 
-        response.setGithubUrl("https://github.com/yourusername/your-repo"); // Replace with your GitHub repo URL
+        response.setGithubUrl("https://github.com/nixonkingori/hng-stage-zero-api.git");
         return response;
     }
 
